@@ -1,0 +1,35 @@
+@use "../abstracts/variables"as *;
+
+
+/* ......../ NavBar /.......... */
+
+@media (max-width: 786px) {
+
+  .navbar-logo a {
+    font-size: $fs-600;
+  }
+
+  .navbar-menu li {
+    padding: 0 $size-200;
+  }
+}
+
+
+/* ......../ About /.......... */
+
+//Tablet
+@media (min-width: 550px) {
+
+  .about-container {
+    max-width: 80rem;
+  }
+
+  .about-container h1 {
+    font-size: $fs-750;
+  }
+
+  .about-container p {
+    font-size: $fs-700;
+  }
+
+}
