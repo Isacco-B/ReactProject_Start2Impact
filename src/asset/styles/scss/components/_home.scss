@@ -1,0 +1,7 @@
+@use "../abstracts/variables"as *;
+/* ......../ CssRest /.......... */
+
+.container {
+background-color: $clr-blue-100;
+padding-top: $size-800;
+}

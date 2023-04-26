@@ -3,9 +3,6 @@
 /* ......../ Footer /.......... */
 
 .footer {
-  position: fixed;
-  width: 100%;
-  bottom: 0;
   background: $clr-gray-800;
   padding: $size-400;
   color: $clr-white;
@@ -16,7 +13,7 @@
 .scroll-up {
   position: fixed;
   right: 0.5%;
-  bottom: 6%;
+  bottom: 3%;
   cursor: pointer;
 
   a {

@@ -1,0 +1,31 @@
+@use "../abstracts/variables"as *;
+
+/* ......../ Search /.......... */
+
+.search-container {
+  text-align: center;
+  padding: $size-400;
+  margin-bottom: $size-500;
+
+  input {
+    width: 50%;
+    border: 2px solid $clr-gray;
+    border-right: none;
+    height: 40px;
+    border-radius: 10px 0 0 10px;
+    outline: none;
+    font-family: $ff-secondary;
+    color: $clr-gray;
+  }
+
+  button {
+    width: 80px;
+    height: 40px;
+    border: none;
+    background: $clr-red;
+    color: $clr-white;
+    border-radius: 0 5px 5px 0;
+    font-family: $ff-secondary;
+    cursor: pointer;
+  }
+}

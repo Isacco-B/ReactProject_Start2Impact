@@ -4,7 +4,7 @@ import SearchForm from "../components/SearchForm";
 
 function Home() {
   return (
-    <main>
+    <main className="container">
       <SearchForm />
       <RecipeList />
     </main>

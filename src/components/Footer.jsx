@@ -4,9 +4,9 @@ function Footer() {
   return (
     <>
       <section>
-        <div class="scroll-up">
+        <div className="scroll-up">
           <a href="#">
-            <i class="bi bi-arrow-up-circle-fill"></i>
+            <i className="bi bi-arrow-up-circle-fill"></i>
           </a>
         </div>
       </section>
